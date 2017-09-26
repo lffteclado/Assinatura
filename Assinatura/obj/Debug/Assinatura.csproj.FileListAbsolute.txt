@@ -220,3 +220,4 @@ E:\Documentos\Visual Studio 2017\Projects\Assinatura\Assinatura\Assinatura\bin\p
 E:\Documentos\Visual Studio 2017\Projects\Assinatura\Assinatura\Assinatura\obj\Debug\Assinatura.csprojResolveAssemblyReference.cache
 E:\Documentos\Visual Studio 2017\Projects\Assinatura\Assinatura\Assinatura\obj\Debug\Assinatura.dll
 E:\Documentos\Visual Studio 2017\Projects\Assinatura\Assinatura\Assinatura\obj\Debug\Assinatura.pdb
+E:\Documentos\Visual Studio 2017\Projects\Assinatura\Assinatura\obj\Debug\Assinatura.csproj.CoreCompileInputs.cache
