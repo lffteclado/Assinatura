@@ -31,7 +31,7 @@ namespace Assinatura.Controllers
         }
 
         [HttpPost]
-        public FileResult gerarAssinatura(FormCollection form)
+        public FileResult GerarAssinatura(FormCollection form)
         {
             //Carrega o DropDownlist para ser selecionada na proxima pagina chamada
             ViewBag.CodEmpresa = new SelectList
@@ -55,7 +55,7 @@ namespace Assinatura.Controllers
             string empresa = form.Get("CodEmpresa");
 
             //Valores: Largura e Altura
-            Bitmap imagem = new Bitmap(500, 286);
+            Bitmap imagem = new Bitmap(500, 171);
 
             Graphics g = Graphics.FromImage(imagem);
 
@@ -484,7 +484,7 @@ namespace Assinatura.Controllers
             }
         }
 
-        public string pesquisaLista (string filtro, string empresa)
+        public string PesquisaLista (string filtro, string empresa)
         {
             string retorno = (from end in emp.ListaEmpresas()
                               where end.CodEmpresa == empresa
