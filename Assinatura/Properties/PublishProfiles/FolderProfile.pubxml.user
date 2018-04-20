@@ -6,7 +6,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\User\Desktop\WebSite</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\User\Desktop\Assinatura</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="ApplicationInsights.config">
@@ -22,10 +22,10 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>09/26/2017 17:08:49</publishTime>
     </File>
     <File Include="bin/Assinatura.dll">
-      <publishTime>01/31/2018 14:04:34</publishTime>
+      <publishTime>04/18/2018 18:03:20</publishTime>
     </File>
     <File Include="bin/Assinatura.pdb">
-      <publishTime>01/31/2018 14:04:34</publishTime>
+      <publishTime>04/18/2018 18:03:20</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>09/26/2017 17:08:50</publishTime>
@@ -208,13 +208,19 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>09/26/2017 17:08:49</publishTime>
     </File>
     <File Include="Imagens/Logos/logo.jpg">
-      <publishTime>01/31/2018 13:43:55</publishTime>
+      <publishTime>04/17/2018 18:48:24</publishTime>
+    </File>
+    <File Include="Imagens/Logos/logo.png">
+      <publishTime>04/17/2018 14:42:34</publishTime>
     </File>
     <File Include="Imagens/Logos/logo2.jpeg">
-      <publishTime>01/31/2018 13:38:21</publishTime>
+      <publishTime>04/17/2018 18:49:47</publishTime>
     </File>
     <File Include="Imagens/Logos/logo_moc.jpg">
-      <publishTime>01/31/2018 13:44:13</publishTime>
+      <publishTime>04/17/2018 18:24:52</publishTime>
+    </File>
+    <File Include="Imagens/Logos/logo_moc.png">
+      <publishTime>04/18/2018 17:35:56</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>09/26/2017 17:08:50</publishTime>

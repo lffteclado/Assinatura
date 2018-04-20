@@ -158,9 +158,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Imagens\Logos\logo.jpg" />
+    <Content Include="Imagens\Logos\logo.png" />
     <Content Include="Imagens\Logos\logo2.jpeg" />
-    <Content Include="Imagens\Logos\logo_moc.jpg" />
+    <Content Include="Imagens\Logos\logo_moc.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">

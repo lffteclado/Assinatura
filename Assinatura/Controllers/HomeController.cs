@@ -55,7 +55,7 @@ namespace Assinatura.Controllers
             string empresa = form.Get("CodEmpresa");
 
             //Valores: Largura e Altura
-            Bitmap imagem = new Bitmap(500, 171);
+            Bitmap imagem = new Bitmap(500, 286);
 
             Graphics g = Graphics.FromImage(imagem);
 
