@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Assinatura";
+}
+<br />
+<div class="jumbotron">
+    <h2>Gerador de Assinatura para E-mail.</h2>
+    <p class="lead">Crie aqui a sua assinatura padrão para utilizar no seu e-mail corporativo.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <input type="hidden" name="processado" id="processado" value="" />
+        <div class="col-sm-offset-3 col-sm-9">
+            <h2>Informe seus dados!</h2>
+        </div>        
+        @using (Html.BeginForm("GerarAssinatura", "Home", FormMethod.Post, new { @class = "form-horizontal" }))
+        {
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="txtNome" class="col-sm-3 control-label">Nome:</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="txtNome" name="txtNome" maxlength="40" onfocus="showPopover('txtNome')" onblur="hidePopover('txtNome')" data-container="body" data-toggle="popover" data-placement="top" data-content="Informe o seu nome completo com no Maximo 40 Caracteres, espaços em branco também conta, nomes grandes procure abreviar!" placeholder="Informe o seu Nome!" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtEmail" class="col-sm-3 control-label">Email:</label>
+                    <div class="col-sm-9">
+                        <input type="email" class="form-control" id="txtEmail" name="txtEmail" maxlength="100" onfocus="showPopover('txtEmail')" onblur="hidePopover('txtEmail')" data-container="body" data-toggle="popover" data-placement="top" data-content="Informe um endereço de Email válido!" placeholder="Informe o seu Email!" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtTelefone" class="col-sm-3 control-label">Telefone:&nbsp;</label>
+                    <div class="col-sm-9">
+                        <input type="tel" class="form-control" id="txtTelefone" name="txtTelefone" maxlength="20" onfocus="showPopover('txtTelefone')" onblur="hidePopover('txtTelefone')" data-container="body" data-toggle="popover" data-placement="top" data-content="Informe o telefone de contato, digite apenas numeros!" placeholder="Informe o seu Telefone!" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtCelular" class="col-sm-3 control-label">Celular:&nbsp;</label>
+                    <div class="col-sm-9">
+                        <input type="tel" class="form-control" id="txtCelular" name="txtCelular" maxlength="20" onfocus="showPopover('txtCelular')" onblur="hidePopover('txtCelular')" data-container="body" data-toggle="popover" data-placement="top" data-content="Informe o celular de contato, digite apenas numeros!" placeholder="Informe o seu Celular, não origatorio!">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtDep" class="col-sm-3 control-label">Cargo | Depart.:&nbsp;</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="txtDep" name="txtDep" maxlength="55" onfocus="showPopover('txtDep')" onblur="hidePopover('txtDep')" data-container="body" data-toggle="popover" data-placement="top" data-content="Informe o seu Cargo e Departamento, respeitando o limite maximo de 55 caracteres!" placeholder="Informe o seu Cargo e Departamento!" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtCargo" class="col-sm-3 control-label">Empresa:&nbsp;</label>
+                    <div class="col-sm-9">
+                        @*Passando o Nome da ViewBag*@
+                        @Html.DropDownList("CodEmpresa", null, String.Empty, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-9">
+                        <button type="submit" class="btn btn-success">Gerar!</button>&nbsp;&nbsp;<button type="button" class="btn btn-danger" id="btnLimpar" name="btnLimpar" onclick="limparCampos()">Limpar!</button>
+                    </div>
+                </div>
+            </form>
+        }
+    </div>
+    <div class="col-md-3">
+        <h2>Modelo:</h2>
+        <image>
+            <img src="~/Imagens/Logos/logo2.jpeg" />
+        </image>
+    </div>
+    <div class="col-md-3">
+        <h2></h2>
+        <p></p>
+    </div>
+</div>
