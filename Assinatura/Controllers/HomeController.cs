@@ -71,6 +71,10 @@ namespace Assinatura.Controllers
             {
                 icone = System.Drawing.Image.FromFile(Server.MapPath("~/Imagens/Logos/logo_moc.jpg"));
             }
+            else if (empresa == "3610")
+            {
+                icone = System.Drawing.Image.FromFile(Server.MapPath("~/Imagens/Logos/logo_rede.jpg"));
+            }
             else
             {
                 icone = System.Drawing.Image.FromFile(Server.MapPath("~/Imagens/Logos/logo.jpg"));

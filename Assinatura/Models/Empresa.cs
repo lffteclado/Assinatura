@@ -26,7 +26,7 @@ namespace Assinatura.Models
                 new Empresa {CodEmpresa = "2620", NomeEmpresa = "Uberlandia", NomeCompleto = "Uberlândia Caminhões & Ônibus - Grupo VDL", Endereco = "Av. Paulo Roberto da Cunha Santos, 2.181/A - Marta Helena", Endereco2 = "Uberlândia - MG - CEP 38402-266", Site = "www.uberlandiacaminhoes.com.br" },
                 new Empresa {CodEmpresa = "2620F", NomeEmpresa = "Itumbiara", NomeCompleto = "Itumbiara Caminhões e Ônibus - Grupo VDL", Endereco = "V. Expressa Júlio Borges de Souza, 6.800 - Nossa Senhora da Saúde", Endereco2 = "Itumbiara-GO - CEP:75520-375", Site = "www.itumbiaracaminhoes.com.br" },
                 new Empresa {CodEmpresa = "260", NomeEmpresa = "Valadares", NomeCompleto = "Valadares Diesel - Grupo VDL", Endereco = "Rod. Rio-Bahia, Km 545 - Jardim Ipê", Endereco2 = "G. Valadares - MG - CEP 35043-000", Site = "www.valadaresdiesel.com.br" },
-                //new Empresa {CodEmpresa = "3610", NomeEmpresa = "Rede Mineira", NomeCompleto = "Rede Mineira de Pneus - Grupo VDL", Endereco = "", Endereco2 = "", Site = "" },
+                new Empresa {CodEmpresa = "3610", NomeEmpresa = "Rede Mineira", NomeCompleto = "Rede Mineira de Pneus - Grupo VDL", Endereco = "Rod. BR-040, Km. 688 - Guanabara", Endereco2 = "Contagem - MG - CEP 32145-900", Site = "" },
                 new Empresa {CodEmpresa = "666", NomeEmpresa = "Grupo VDL", NomeCompleto = "Grupo VDL", Endereco = "Av. Amazonas, 8787 - Cabana", Endereco2 = "Belo Horizonte - MG - CEP 30510-000", Site = "www.grupovdl.com.br" }
 
             };
